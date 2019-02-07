@@ -1,0 +1,23 @@
+{
+    "name": "dnsrv/a12-framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Denis Romanov",
+          "email": "dnsrv.x1427@gmail.com"
+        }
+    ],
+
+    "require": {
+        "psr/container": "^1.0"
+        "vanilla/garden-cli": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "A12\\" : "./src",
+            "A12\\Tests\\": "./tests"
+        }
+    }
+}

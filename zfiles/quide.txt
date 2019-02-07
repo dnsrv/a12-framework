@@ -1,0 +1,20 @@
+- Output only errors and response
+
+-verbose    [false]
+    -> output all information
+
+-force      [false]
+    -> do not confirm
+    -> use default or generated values
+
+-silent     [false]
+    -> do not output anything (but response)
+
+-noresponse [true]
+    -> do not output anything
+
+-help       [false]
+    -> print help
+
+-notag      [false]
+    -> do not output O::, I:: etc
